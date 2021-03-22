@@ -1,3 +1,4 @@
+
 const BASE_URL = 'https://restcountries.eu/rest/v2/';
 
 function fetchCountry(searchQuery) {
@@ -6,4 +7,4 @@ function fetchCountry(searchQuery) {
   );
 }
 
-export default { fetchCountry };
+export default fetchCountry;
